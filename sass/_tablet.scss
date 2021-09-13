@@ -1,0 +1,120 @@
+@media screen and (min-width: 768px){
+    main{
+        .seccionPrincipal{
+            &__contenedor{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                &--box{
+                    width: 230px;
+                    height: 280px;
+                }    
+            }
+        }
+        .seccionPagos{
+            display: flex;
+            flex-direction: row;
+        }
+        /* PRODUCTOS */
+        .seccionNovedades{
+            display: grid;
+            grid-template-areas: 
+            "titulo titulo"
+            "zapatillas bufandas"
+            "medias camperas"
+            "gorras remeras"
+            "guantes zapatos";
+            grid-template-columns: auto auto;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 10px;
+            width: 80%;
+            margin: 10px auto;
+            &__titulo{
+                grid-area: titulo;
+                text-align: center;
+            }
+            .zapatillas{
+                grid-area: zapatillas;
+            }
+            .bufandas{
+                grid-area: bufandas;
+            }
+            .medias{
+                grid-area: medias;
+            }
+            .camperas{
+                grid-area: camperas;
+            }
+            .gorras{
+                grid-area: gorras;
+            }
+            .remeras{
+                grid-area: remeras;
+            }
+            .guantes{
+                grid-area: guantes;
+            }
+            .zapatos{
+                grid-area: zapatos;
+            }
+            .contenedorProducto{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        /* NOSOTROS */
+        .seccionHistoria{
+            &__contenedor{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                &--carrusel{
+                    width: 200px;
+                    height: 200px;
+                    margin: 10px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                &--texto{
+                    color: white;
+                    text-align: center;
+                    margin: 10px;
+                }
+            }
+        }
+        /* PEDIDOS */
+        .contenedorPedidos{
+            .seccionPedidos{
+                .seccionPedidos__cuadro{
+                    .seccionPedidos__formaEntrega{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .entrega{
+                            flex-grow: 1;
+                            padding: 5px;
+                            margin: 5px;
+                            &__opciones{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                .btnEntrega{
+                                    border: 1px orange solid;
+                                    padding: 5px;
+                                    margin: 5px;
+                                }
+                                .entrega__texto{
+                                    padding: 5px;
+                                    margin: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

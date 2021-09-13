@@ -1,0 +1,1448 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Poiret One", cursive;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.header {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header__logo {
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+}
+
+.header__logo a {
+  border-radius: 50%;
+}
+
+.header__logo a img {
+  width: 100%;
+  height: 100%;
+}
+
+.header .icono__menu {
+  margin: 10px;
+}
+
+.header .container__menu--lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: none;
+      -ms-flex-align: none;
+          align-items: none;
+}
+
+.header .container__menu--lista a {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header .container__menu--lista a:hover {
+  background-color: grey;
+}
+
+main .encabezado {
+  background-image: url(../img/portada2.png);
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .encabezado__titulo {
+  color: white;
+  font-size: 3em;
+}
+
+main .encabezado__subtitulo {
+  color: white;
+  font-size: 2em;
+}
+
+main .seccionPrincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2%;
+}
+
+main .seccionPrincipal__titulo {
+  font-size: 2rem;
+}
+
+main .seccionPrincipal__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .seccionPrincipal__contenedor--box {
+  width: 250px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+}
+
+main .seccionPrincipal__contenedor--box img {
+  width: 100%;
+  height: 100%;
+}
+
+main .seccionPrincipal__contenedor .caja1 {
+  background-color: pink;
+}
+
+main .seccionPrincipal__contenedor .caja1__texto {
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 3%;
+}
+
+main .seccionPrincipal__contenedor .caja2 {
+  background-color: lightblue;
+}
+
+main .seccionPrincipal__contenedor .caja2__texto {
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 3%;
+}
+
+main .seccionPrincipal__contenedor .caja3 {
+  background-color: yellow;
+}
+
+main .seccionPrincipal__contenedor .caja3__texto {
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 3%;
+}
+
+main .Pagos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5%;
+  background-color: #dddddd;
+}
+
+main .Pagos__titulo {
+  font-size: 2rem;
+  margin: 20px;
+}
+
+main .Pagos .seccionPagos__efectivo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: 2px dashed black;
+  background-color: lightblue;
+  padding: 30px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+main .Pagos .seccionPagos__efectivo--dto {
+  font-size: 2rem;
+  text-align: center;
+}
+
+main .Pagos .seccionPagos__efectivo--texto {
+  font-size: 1rem;
+  text-align: center;
+}
+
+main .Pagos .seccionPagos__tarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: 2px dashed black;
+  padding: 30px;
+  background-color: orange;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+main .Pagos .seccionPagos__tarjeta--img {
+  width: 50px;
+  height: 50px;
+}
+
+main .Pagos .seccionPagos__tarjeta--img img {
+  width: 100%;
+  height: 100%;
+}
+
+main .Pagos .seccionPagos__tarjeta--texto {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+  padding: 1%;
+  height: 200px;
+  bottom: 0;
+}
+
+.footer__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 4%;
+  border-right: 1px dashed white;
+}
+
+.footer__menu a {
+  color: white;
+  margin: 2% 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.footer__menu a:hover {
+  color: red;
+}
+
+.footer__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__redes--titulo {
+  color: white;
+  margin-bottom: 1%;
+  font-size: 1rem;
+}
+
+.footer__redes .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__redes .redes__instagram a {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: black;
+}
+
+.footer__redes .redes__instagram a:hover {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.footer__redes .redes__twitter a {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.footer__redes .redes__twitter a:hover {
+  background-color: lightblue;
+  border-radius: 50%;
+}
+
+.footer__redes .redes__facebook a {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.footer__redes .redes__facebook a:hover {
+  background-color: blue;
+}
+
+/* PRODUCTOS */
+main .encabezadoProductos {
+  background-image: url(../img/portada3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+main .seccionNovedades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2%;
+}
+
+main .seccionNovedades__titulo {
+  font-size: 2rem;
+}
+
+main .seccionNovedades .contenedorProducto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px dashed black;
+  border-radius: 50%;
+  padding: 20px;
+  width: 100px;
+  height: auto;
+  margin: 15px;
+}
+
+main .seccionNovedades .contenedorProducto__img {
+  width: 70px;
+  height: 70px;
+}
+
+main .seccionNovedades .contenedorProducto__img img {
+  width: 100%;
+  height: 100%;
+}
+
+main .seccionNovedades .contenedorProducto__texto {
+  font-size: 1rem;
+}
+
+main .seccionTabla {
+  margin: 2%;
+}
+
+main .seccionTabla__titulo {
+  text-align: center;
+  font-size: 2rem;
+}
+
+main .seccionTabla .tabla {
+  width: 90%;
+  margin: 50px auto;
+  border-collapse: collapse;
+}
+
+main .seccionTabla .tabla tr {
+  border: none;
+  text-align: center;
+  font-size: 1em;
+}
+
+main .seccionTabla .tabla tr th {
+  background-color: black;
+  color: white;
+  padding: 15px 5px;
+  text-align: center;
+  margin: 0;
+  padding: 1%;
+}
+
+main .seccionTabla .tabla tr td {
+  border: none;
+  text-align: center;
+  padding: 1%;
+}
+
+main .seccionTabla .tabla tr:hover {
+  background-color: #FFD5C2;
+}
+
+/* NOSOTROS */
+main .encabezadoNosotros {
+  background-image: url(../img/portada4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+main .seccionNosotros {
+  margin: 5% auto;
+  text-align: center;
+  width: 80%;
+  padding: 2%;
+}
+
+main .seccionNosotros__titulo {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+main .seccionHistoria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  padding: 3%;
+}
+
+main .seccionHistoria__titulo {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+main .seccionHistoria__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .seccionHistoria__contenedor--carrusel {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+}
+
+main .seccionHistoria__contenedor--carrusel img {
+  width: 100%;
+  height: 100%;
+}
+
+main .seccionHistoria__contenedor--texto {
+  color: white;
+  text-align: center;
+}
+
+main .seccionMarcas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3%;
+}
+
+main .seccionMarcas__titulo {
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+
+main .seccionMarcas__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .seccionMarcas__contenedor--carrusel {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+}
+
+main .seccionMarcas__contenedor--carrusel img {
+  width: 100%;
+  height: 100%;
+}
+
+main .seccionMarcas__contenedor--texto {
+  color: black;
+  text-align: center;
+}
+
+/* PEDIDOS */
+main .encabezadoPedidos {
+  background-image: url(../img/portada5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+main .contenedorPedidos__titulo {
+  text-align: center;
+  color: black;
+  margin: 10% auto;
+  font-size: 2rem;
+}
+
+main .contenedorPedidos .seccionPedidos {
+  margin: 30px auto;
+  width: 90%;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro {
+  padding: 2%;
+  border: black 1px solid;
+  width: 90%;
+  margin: 0 auto;
+  background-color: black;
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.6);
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__nombre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px auto;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__nombre .nombreApellido {
+  padding: 5px;
+  font-size: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 5px auto;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__nombre #nombreApellido {
+  padding: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__direccion {
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__direccion #direccion {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  padding: 5px;
+  margin-right: 5px;
+  width: 100%;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__direccion #direccion2 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 5px;
+  margin-right: 5px;
+  width: 100%;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__direccion #direccion3 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 5px;
+  width: 100%;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__email {
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__email .email {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 5px;
+  font-size: 1rem;
+  margin: 5px auto;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__email #email {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 5px;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__calendar {
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__calendar .calendar {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 5px;
+  font-size: 1rem;
+  margin: 5px auto;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__calendar #calendar {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 5px;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__hora {
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__hora .hora {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 5px;
+  font-size: 1rem;
+  margin: 5px auto;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__hora #hora {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 5px;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__formaEntrega {
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__formaEntrega .entrega {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0px;
+  font-size: 1rem;
+  margin: 5px auto;
+  text-align: center;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__formaEntrega .entrega__opciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__formaEntrega .entrega__opciones .btnEntrega {
+  padding: 5px;
+  margin: 5px;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__formaEntrega .entrega__opciones .entrega__texto {
+  padding: 5px;
+  margin: 5px;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .textarea {
+  width: 100%;
+  height: 150px;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .botonesFormulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .botonesFormulario #enviar {
+  padding: 10x;
+  background-color: grey;
+  color: black;
+  width: 100px;
+  margin: 0 10px;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .botonesFormulario #enviar:hover {
+  background-color: white;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .botonesFormulario #borrar {
+  padding: 10px;
+  background-color: grey;
+  color: black;
+  width: 100px;
+  margin: 0 10px;
+}
+
+main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .botonesFormulario #borrar:hover {
+  background-color: white;
+}
+
+/* CONTACTO */
+main .encabezadoContacto {
+  background-image: url(../img/portada6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+main .informacion .seccionContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3%;
+}
+
+main .informacion .seccionContacto__titulo {
+  font-size: 2rem;
+}
+
+main .informacion .seccionContacto__email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+main .informacion .seccionContacto__email p {
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+main .informacion .seccionContacto__telefono {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+main .informacion .seccionContacto__telefono p {
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+main .informacion .seccionContacto__ubicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+main .informacion .seccionContacto__ubicacion p {
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+main .informacion .seccionContacto .seccionContacto__redes {
+  font-size: 2rem;
+  margin: 10px;
+}
+
+main .informacion .seccionContacto .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .informacion .seccionContacto .redes__instagram a {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: black;
+}
+
+main .informacion .seccionContacto .redes__instagram a:hover {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+main .informacion .seccionContacto .redes__twitter a {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: black;
+}
+
+main .informacion .seccionContacto .redes__twitter a:hover {
+  background-color: lightblue;
+}
+
+main .informacion .seccionContacto .redes__facebook a {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: black;
+}
+
+main .informacion .seccionContacto .redes__facebook a:hover {
+  background-color: blue;
+}
+
+main .informacion .mapa {
+  background-color: black;
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10%;
+}
+
+main .informacion .mapa__titulo {
+  color: white;
+}
+
+main .informacion .mapa__map {
+  width: 180px;
+  height: 180px;
+}
+
+main .informacion .mapa__map .googleMapa {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    /* PRODUCTOS */
+    /* NOSOTROS */
+    /* PEDIDOS */
+  }
+  main .seccionPrincipal__contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .seccionPrincipal__contenedor--box {
+    width: 230px;
+    height: 280px;
+  }
+  main .seccionPagos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .seccionNovedades {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "titulo titulo" "zapatillas bufandas" "medias camperas" "gorras remeras" "guantes zapatos";
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 80%;
+    margin: 10px auto;
+  }
+  main .seccionNovedades__titulo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: titulo;
+    text-align: center;
+  }
+  main .seccionNovedades .zapatillas {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: zapatillas;
+  }
+  main .seccionNovedades .bufandas {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: bufandas;
+  }
+  main .seccionNovedades .medias {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: medias;
+  }
+  main .seccionNovedades .camperas {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+    grid-area: camperas;
+  }
+  main .seccionNovedades .gorras {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: gorras;
+  }
+  main .seccionNovedades .remeras {
+    -ms-grid-row: 4;
+    -ms-grid-column: 2;
+    grid-area: remeras;
+  }
+  main .seccionNovedades .guantes {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: guantes;
+  }
+  main .seccionNovedades .zapatos {
+    -ms-grid-row: 5;
+    -ms-grid-column: 2;
+    grid-area: zapatos;
+  }
+  main .seccionNovedades .contenedorProducto {
+    width: 150px;
+    height: 150px;
+  }
+  main .seccionHistoria__contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .seccionHistoria__contenedor--carrusel {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  main .seccionHistoria__contenedor--carrusel img {
+    width: 100%;
+    height: 100%;
+  }
+  main .seccionHistoria__contenedor--texto {
+    color: white;
+    text-align: center;
+    margin: 10px;
+  }
+  main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__formaEntrega {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__formaEntrega .entrega {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    padding: 5px;
+    margin: 5px;
+  }
+  main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__formaEntrega .entrega__opciones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__formaEntrega .entrega__opciones .btnEntrega {
+    border: 1px orange solid;
+    padding: 5px;
+    margin: 5px;
+  }
+  main .contenedorPedidos .seccionPedidos .seccionPedidos__cuadro .seccionPedidos__formaEntrega .entrega__opciones .entrega__texto {
+    padding: 5px;
+    margin: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header__logo {
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 50%;
+  }
+  .header__logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .header .container__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+  }
+  .header .container__menu--lista {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0;
+  }
+  .header .container__menu--lista a {
+    color: white;
+    padding: 20px;
+  }
+  .header .container__menu--lista a:hover {
+    background-color: grey;
+  }
+  main .seccionPagos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .footer {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 2%;
+  }
+  /* PRODUCTOS */
+  main .seccionNovedades {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "titulo titulo titulo titulo" "zapatillas bufandas medias camperas" "gorras remeras guantes zapatos";
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 80%;
+    margin: 10px auto;
+  }
+  main .seccionNovedades__titulo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-area: titulo;
+    text-align: center;
+  }
+  main .seccionNovedades .zapatillas {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: zapatillas;
+  }
+  main .seccionNovedades .bufandas {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: bufandas;
+  }
+  main .seccionNovedades .medias {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+    grid-area: medias;
+  }
+  main .seccionNovedades .camperas {
+    -ms-grid-row: 2;
+    -ms-grid-column: 4;
+    grid-area: camperas;
+  }
+  main .seccionNovedades .gorras {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: gorras;
+  }
+  main .seccionNovedades .remeras {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+    grid-area: remeras;
+  }
+  main .seccionNovedades .guantes {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+    grid-area: guantes;
+  }
+  main .seccionNovedades .zapatos {
+    -ms-grid-row: 3;
+    -ms-grid-column: 4;
+    grid-area: zapatos;
+  }
+  main .seccionNovedades .contenedorProducto {
+    width: 150px;
+    height: 150px;
+  }
+  /* CONTACTO */
+  main .informacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .informacion .mapa__map {
+    width: 400px;
+    height: 400px;
+  }
+  main .informacion .mapa__map .googleMapa {
+    height: 100%;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
